@@ -1,0 +1,14 @@
+# Nodejs
+node_modules
+
+# npm
+package-lock.json
+
+# environment variables
+.env
+
+## dist
+dist
+.DS_Store
+src/.DS_Store
+src/public/.DS_Store

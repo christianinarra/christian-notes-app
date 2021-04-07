@@ -7,15 +7,15 @@ services:
     restart: always
     build: .
     ports:
-      - "4000:4000"
+      - "3000:3000"
     links:
       - mongo
     volumes:
       - .:/usr/src/app
     environment:
-      - MONGODB_HOST=mongo
-      - MONGODB_DB=notesdb
-      - PORT=4000
+      - MONGODB_HOST=localhost
+      - MONGODB_DB=notes-db
+      - PORT=3000
   mongo:
     container_name: database
     image: mongo

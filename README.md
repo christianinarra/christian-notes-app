@@ -16,4 +16,4 @@ when the app is lauched, this will create an Admin user with the following crede
 
 # Demo
 
-- [Link Demo](https://example.com)
+- [Link Demo](http://35.188.220.134:4000/)
